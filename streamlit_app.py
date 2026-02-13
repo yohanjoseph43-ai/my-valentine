@@ -142,8 +142,8 @@ elif st.session_state.step == "memories":
     with col2:
         st.markdown("<div class='glass-card'>", unsafe_allow_html=True)
         st.write("📸 Visual Archives")
-        c1, c2 = st.columns("IMG_0271.jpg", caption="Special Memory✨")
-        c2.image("627368267_1196088558998310_7517174288371660696_n.jpg", caption="My Fav💝")
+        c1, c2 = st.columns("IMG_0271.jpeg", caption="Special Memory✨")
+        c2.image("untitled design.png", caption="My Fav💝")
         if st.button("Analyze Connection ➡️"): move_to("reasons")
         st.markdown("</div>", unsafe_allow_html=True)
 
@@ -164,12 +164,12 @@ elif st.session_state.step == "reasons":
         
         # Reason 3
         st.markdown("<div class='reason-header'>My Vaayadi Thatha🦜</div>", unsafe_allow_html=True)
-        st.markdown("<div class='reason-text'>Swantham ayy etho sambavam annh ennokkaya vicharam and vaa thoranna pna adakkathilla ingana vaa thorand paranonde irikkum,inganenda oru extrovert😜.</div>", unsafe_allow_html=True)
+        st.markdown("<div class='reason-text'>Swantham ayy etho sambavam annh ennokkaya vicharam ariyathavarod muzhu introvert but ariyunnavarod vaa thoranna pna adakkathilla ingana vaa thorand paranonde irikkum,inganenda oru a😜.</div>", unsafe_allow_html=True)
 
         st.markdown("<div class='reason-text'>but you know what i like the thinks i mentioned above even if they are good or bad it dosen't matter and just remember .</div>", unsafe_allow_html=True)
 
         st.markdown("<div class='glass-card'>", unsafe_allow_html=True)
-        st.write("<div class='reason-header'>Anu u are My Home in a Small World of Mine that I feel the most Comfortable in and want you with me till my last breath </div>", unsafe_allow_html=True)
+        st.write("<div class='reason-header'>Adheeee u are My Home in a Small World of Mine that I feel the most Comfortable in and want you with me till my last breath </div>", unsafe_allow_html=True)
        
         if st.button("Unlock Soundtrack ➡️"): move_to("soundtrack")
         st.markdown("</div>", unsafe_allow_html=True)
@@ -181,7 +181,7 @@ elif st.session_state.step == "soundtrack":
     col1, col2, col3 = st.columns([1, 2, 1])
     with col2:
         songs = [
-            {"t": "Naan Pogiren", "a": "S. P. Balasubrahmanyam &   K. S. Chithra", "u": "https://music.youtube.com/watch?v=fqAljCTdFyA&si=YEKEn8QCGeD0AhXk"},
+            {"t": "Arz Kiya Hai", "a": "Anuv Jain", "u": "https://open.spotify.com/track/1bMkimTb47umgNP6xCi4A1?si=oMDcWvuTSdamBmDgq794VA"},
                 ]
         for s in songs:
             st.markdown(f"""
@@ -205,7 +205,7 @@ elif st.session_state.step == "secret_letter":
         
         # --- EDIT YOUR SECRET LETTER HERE ---
         secret_letter_text = """
-        My Lovely Angel (Miss Anugraha[Anu]),<br><br>
+        My Lovely Angel (Miss Adheena[Dheeeeee]),<br><br>
         I’ve been thinking about how lucky I feel to have you in my life, and I just wanted to put it into words. You bring such a special energy into my days — whether we’re laughing about something silly or just talking about random things, you somehow make every moment feel lighter and happier. It’s one of my favorite parts of the day, knowing I get to share those little conversations and memories with you.
         What I admire most about you is how naturally you brighten the space around you. Your voice, your thoughts, your endless stories — they all carry a warmth that makes people feel comfortable and understood. I love how you can turn the simplest moment into something meaningful just by being yourself. It reminds me to enjoy life more and appreciate the small things.
         You’ve shown me how powerful kindness, honesty, and genuine care can be. Every time you smile or get excited about something, it’s contagious in the best way. Being around you makes me want to be a better, happier version of myself, and I’m grateful for that more than I can say.
@@ -241,6 +241,6 @@ elif st.session_state.step == "finale":
         st.markdown("<div class='glass-card'>", unsafe_allow_html=True)
         st.markdown("<h1 style='color: #ff758c;'>💖 YES! 💖</h1>", unsafe_allow_html=True)
         st.write("## Connection Verified: 100% Sync")
-        st.write("### I Love You Forever (Your Favorite Prorammer[Ninta Swantham Manu 😎]).")
+        st.write("### I Love You Forever (Your Favorite Prorammer[Ninta Swantham Yohan 😎 or (🥭)]).")
         if st.button("Restart Journey 🔄"): st.session_state.strikes = 0; move_to("security")
         st.markdown("</div>", unsafe_allow_html=True)
