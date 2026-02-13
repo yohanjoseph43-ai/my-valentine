@@ -105,7 +105,7 @@ if st.session_state.step == "security":
         st.write("🔒 **ENCRYPTED FILE: OPEN_HEART.EXE**")
         password = st.text_input("Enter Secret Key (The place where You said yes?):", type="default")
         if st.button("Decrypt"):
-            if password.lower() == "Marine Drive": move_to("proposal")
+            if password.lower() == "marine drive": move_to("proposal")
             else: st.error("Access Denied. (Hint:The Place you fell for your Manga🥭😎) ")
         st.markdown("</div>", unsafe_allow_html=True)
 
