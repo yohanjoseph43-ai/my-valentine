@@ -103,10 +103,10 @@ if st.session_state.step == "security":
     with col2:
         st.markdown("<div class='glass-card'>", unsafe_allow_html=True)
         st.write("🔒 **ENCRYPTED FILE: OPEN_HEART.EXE**")
-        password = st.text_input("Enter Secret Key (City where we first met?):", type="default")
+        password = st.text_input("Enter Secret Key (The place where You said yes?):", type="default")
         if st.button("Decrypt"):
-            if password.lower() == "bangalore": move_to("proposal")
-            else: st.error("Access Denied. (Hint:The city you fell for Me😎) ")
+            if password.lower() == "Marine Drive": move_to("proposal")
+            else: st.error("Access Denied. (Hint:The Place you fell for your Manga🥭😎) ")
         st.markdown("</div>", unsafe_allow_html=True)
 
 # --- STEP 2: PROPOSAL ---
@@ -114,12 +114,12 @@ elif st.session_state.step == "proposal":
     col1, col2, col3 = st.columns([1, 2, 1])
     with col2:
         st.markdown("<div class='glass-card'><span style='font-size:70px;'>🌸</span>", unsafe_allow_html=True)
-        st.write("## Will You Be Mine Forever?")
+        st.write("## Will You Be Mine Forever Adheeeee🥹?")
         c1, c2 = st.columns(2)
         with c1:
-            if st.button("YES! 😍"): st.balloons(); move_to("karate")
+            if st.button("YES! 😍🕺"): st.balloons(); move_to("karate")
         with c2:
-            if st.button("No 😢"): st.toast("Error: Selection disabled.(option disabled by your fav programmer🙃)")
+            if st.button("No 😢😭"): st.toast("Error: Selection disabled.(option disabled by your fav programmer🙃)")
         st.markdown("</div>", unsafe_allow_html=True)
 
 # --- STEP 3: KARATE CHALLENGE ---
@@ -142,8 +142,7 @@ elif st.session_state.step == "memories":
     with col2:
         st.markdown("<div class='glass-card'>", unsafe_allow_html=True)
         st.write("📸 Visual Archives")
-        c1, c2 = st.columns(2)
-        c1.image("625978180_910554591451989_1397209579107700988_n.jpg", caption="Special Memory✨")
+        c1, c2 = st.columns("IMG_0271.jpg", caption="Special Memory✨")
         c2.image("627368267_1196088558998310_7517174288371660696_n.jpg", caption="My Fav💝")
         if st.button("Analyze Connection ➡️"): move_to("reasons")
         st.markdown("</div>", unsafe_allow_html=True)
