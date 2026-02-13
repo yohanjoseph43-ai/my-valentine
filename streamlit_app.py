@@ -69,4 +69,4 @@ with col2:
     if st.button("✨ Tap for a Surprise ✨"):
         st.balloons()
         st.snow()
-        st.markdown("<h1 style='text-align:center; color:#d00000; font-family:Great Vibes;'>I Love You!</h1>", unsafe_allow_html=True)
+        st.markdown("<h1 style='text-align:center; color:#d00000; font-family:Great Vibes;'>I Love You My Sweet Heart!</h1>", unsafe_allow_html=True)
