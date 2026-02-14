@@ -143,7 +143,7 @@ elif st.session_state.step == "memories":
         st.markdown("<div class='glass-card'>", unsafe_allow_html=True)
         st.write("📸 Visual Archives")
         c1, c2 = st.columns("IMG_0271.jpeg", caption="Special Memory✨")
-        c2.image("untitled design.png", caption="My Fav💝")
+        c2.image("Untitled design.png", caption="My Fav💝")
         if st.button("Analyze Connection ➡️"): move_to("reasons")
         st.markdown("</div>", unsafe_allow_html=True)
 
